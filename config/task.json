@@ -1,0 +1,41 @@
+{
+    "findJob":{
+        "ShortDesc":"find files in /tmp/",
+        "Desc": "this is a sample of finding files under the /tmp/ dir",
+        "Cmd": "find",
+        "Args": ["/tmp/"],
+        "progressMark":["google","unix","Job","One"],
+        "UploadFileNeeded":false,
+        "InputArgsNeeded":false
+    },
+    "ls":{
+        "ShortDesc":"list files the use specified",
+        "Desc": "this is a sample of list files in the $dir user specified",
+        "Cmd": "ls",
+        "Args": ["$$dir$$","$$additionOption$$"],
+        "progressMark":["google","unix","Job","One"],
+        "UploadFileNeeded":false,
+        "InputArgsNeeded":true,
+        "InputArgsDesc":[
+            {"dir":"which dir to list"},
+            {"additionOption":"some args like -al"}
+        ] 
+    },
+    "cat":{
+        "ShortDesc":"cat file",
+        "Desc": "just cat the file uploaded",
+        "Cmd": "./resource/myCat.sh",
+        "Args": ["$UPLOADFILE$"],
+        "progressMark":[""],
+        "UploadFileNeeded":true
+    },
+    "appendDate":{
+        "ShortDesc":"appendDate to txt file",
+        "Desc":"this is a sample of modify file uploaded and prepare for user to download",
+        "Cmd": "./resource/appendDate.sh",
+        "Args": ["$UPLOADFILE$","$UPLOADFILE$.modified"],
+        "progressMark":[""],
+        "UploadFileNeeded":true
+    }
+
+}
