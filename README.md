@@ -12,7 +12,7 @@ This is a system:
 ![screen_shot] (https://cloud.githubusercontent.com/assets/3839691/5801990/997296ce-a02b-11e4-8405-a33e389356ad.png)
 
 
-### how to run
+### How to run
 
 * just clone this project.
 * change dir to the project root.
