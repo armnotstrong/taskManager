@@ -14,15 +14,15 @@ This is a system:
 
 ### How to run
 
-####For those who already have a `go` ENV
+#### For those who already have a `go` environment
 * just clone this project. Tweak the listen port if you like(default is `8085`), you'll find it very easy to specify another port in the `main func` at the buttom of `server.go`.
 * change dir to the project root.
 * `go run server.go`
 * visit http://localhost:8085 and check it out.
 
-####For those who dont hava a `go` ENV
+####For those who dont hava a `go` environment
 * I have already build a `./server` binary for you, but you will not be able to tweak the listen port which is `8085` **yet**.
-* This binary is build on `Linux AMD64` other architecture will not run this binary functionly. And this binary **may not** keep updated.
+* This binary is build on `Linux AMD64` other architecture will not run this binary functionally. And this binary **may not** kept updated.
 
 ------
 
