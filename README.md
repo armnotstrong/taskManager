@@ -1,6 +1,6 @@
 # Task Manager
 
-## Brief 
+## BRIEF
 
 This is a system:
 
@@ -20,7 +20,7 @@ This is a system:
 
 ------
 
-## Dirs
+## DIRS
 
     +.
     ├── config
@@ -50,7 +50,7 @@ This is a system:
 
 ------
 
-## content of the dirs
+## CONTENT OF DIRS
 
    * **config**:
       - stored task.json which defined the task using json.
