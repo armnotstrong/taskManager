@@ -157,4 +157,4 @@ In that case `Args` in `task.json` could be writen like:
 ## PS
 ------
 * Some samples are given in the `task.json` by default.
-* Concurrently executing of the **same** task is not supported yet.
+* Concurrently execution of the **same** task is not supported yet.
