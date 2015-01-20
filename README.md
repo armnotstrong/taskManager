@@ -142,7 +142,8 @@ This is a system:
 
 ```
 there will be a file named `a.txt.modified` generated under `download/`.
-Then `Args` in `task.json` could be writen like:
+
+In that case `Args` in `task.json` could be writen like:
 ```
    ...
 
